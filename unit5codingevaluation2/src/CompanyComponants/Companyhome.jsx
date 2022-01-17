@@ -32,6 +32,22 @@ function Companyhome() {
   const Cont = styled.div`
     display: flex;
     gap: 5%;
+    border: 1px solid black;
+    h2 {
+      width: 170px;
+      border-right: 2px solid gray;
+    }
+    h4 {
+      width: 170px;
+      border-right: 2px solid yellowgreen;
+    }
+    button{
+        width: 90px;
+        margin-top: 15px;
+        height: 30px;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
   `;
 
   const handleAddJob = (data) => {
@@ -65,22 +81,22 @@ function Companyhome() {
     <div>
       <h1>Jobs</h1>
       <Cont>
-        <h4>companyname</h4>
-        <h4>jobname</h4>
-        <h4>jobtype</h4>
-        <h4>jobdescription</h4>
-        <h4>location</h4>
-        <h4>salaryrange</h4>
+        <h2>companyname</h2>
+        <h2>jobname</h2>
+        <h2>jobtype</h2>
+        <h2>jobdescription</h2>
+        <h2>location</h2>
+        <h2>salaryrange</h2>
       </Cont>
       <div>
         {list.map((e) => (
           <Cont key={e.id}>
-            <h5>{e.companyname}</h5>
-            <h5>{e.jobname}</h5>
-            <h5>{e.jobtype}</h5>
-            <h5>{e.jobdescription}</h5>
-            <h5>{e.location}</h5>
-            <h5>{e.salaryrange}</h5>
+            <h4>{e.companyname}</h4>
+            <h4>{e.jobname}</h4>
+            <h4>{e.jobtype}</h4>
+            <h4>{e.jobdescription}</h4>
+            <h4>{e.location}</h4>
+            <h4>{e.salaryrange}</h4>
             <button onClick={() => handleAddJob(e)}>Add Job</button>
 
             {token === "admin" ? <button>Delete</button> : ""}

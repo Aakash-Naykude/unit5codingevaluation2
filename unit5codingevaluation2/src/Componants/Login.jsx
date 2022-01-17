@@ -25,6 +25,9 @@ function Login() {
     <div>
       <h1>Welcome To Login</h1>
       <h1>Login to use App</h1>
+      <h1>|</h1>
+      <h1>|</h1>
+      <h1>\/</h1>
       <form onSubmit={(e) => handleSubmit(e)}>
         <input
           onChange={(e) => handleChange(e)}

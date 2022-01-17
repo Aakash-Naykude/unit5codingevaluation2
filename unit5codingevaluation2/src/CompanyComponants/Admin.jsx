@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addJobError, addJobLoading, addJobSuccess } from "../Redux/actions";
-
+import "./admin.css";
 function Admin() {
   const [list, setList] = useState("");
   const { isLoading, isError } = useSelector((state) => state.jobReducer);
@@ -47,6 +47,7 @@ function Admin() {
     <div>
       <form onSubmit={handleSubmit}>
         <input
+          className="hello"
           name="companyname"
           type="text"
           placeholder="Enter Company Name"
@@ -54,6 +55,7 @@ function Admin() {
         />
         <br />
         <input
+          className="hello"
           name="jobname"
           type="text"
           placeholder="Enter Job Title"
@@ -61,6 +63,7 @@ function Admin() {
         />
         <br />
         <input
+          className="hello"
           name="salaryrange"
           type="text"
           placeholder="Enter Salary Range"
@@ -68,6 +71,7 @@ function Admin() {
         />
         <br />
         <input
+          className="hello"
           name="jobdescription"
           type="text"
           placeholder="Enter Job Description"
@@ -75,6 +79,7 @@ function Admin() {
         />
         <br />
         <input
+          className="hello"
           name="location"
           type="text"
           placeholder="Enter job location"
@@ -82,13 +87,14 @@ function Admin() {
         />
         <br />
         <input
+          className="hello"
           name="jobtype"
           type="text"
           placeholder="Enter Job Type"
           onChange={(e) => handleChange(e)}
         />
         <br />
-        <input type="submit" />
+        <input className="butn" type="submit" />
       </form>
     </div>
   );

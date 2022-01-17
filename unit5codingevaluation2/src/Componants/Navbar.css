@@ -1,6 +1,8 @@
+
 .navbar {
   display: flex;
-  gap: 5%;
+  gap: 12%;
+  justify-content: center;
 }
 .loginfrom {
   color: palevioletred;
@@ -10,11 +12,18 @@
   border: 2px solid palevioletred;
   border-radius: 3px;
 }
-.loginSubmit{
-    color: white;
-    background-color: gray;
-    border: none;
-    padding: 5px;
-    width: 5%;
-    border-radius: 5px;
+.loginSubmit {
+  color: white;
+  background-color: gray;
+  border: none;
+  padding: 5px;
+  width: 5%;
+  border-radius: 5px;
+}
+.head {
+  font-size: 1.5em;
+  margin: 1em;
+  padding: 0.1em 0.2em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
 }

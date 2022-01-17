@@ -1,11 +1,6 @@
 {
   "jobs": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
       "companyname": "asdas",
       "jobname": "dasdasd",
       "salaryrange": "sadasd",
@@ -35,11 +30,6 @@
   ],
   "clientjobs": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
       "companyname": "fasd",
       "jobname": "fdsf",
       "salaryrange": "fdsf",
@@ -47,6 +37,15 @@
       "location": "fsdfsd",
       "jobtype": "sdasda",
       "id": 3
+    },
+    {
+      "companyname": "asdas",
+      "jobname": "dasdasd",
+      "salaryrange": "sadasd",
+      "jobdescription": "dasd",
+      "location": "asdasd",
+      "jobtype": "sdasda",
+      "id": 2
     }
   ],
   "profile": {
