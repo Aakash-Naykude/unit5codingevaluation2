@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "companyname": "asdas",
+      "jobname": "dasdasd",
+      "salaryrange": "sadasd",
+      "jobdescription": "dasd",
+      "location": "asdasd",
+      "jobtype": "sdasda",
+      "id": 2
+    },
+    {
+      "companyname": "fasd",
+      "jobname": "fdsf",
+      "salaryrange": "fdsf",
+      "jobdescription": "sdfsdfsdf",
+      "location": "fsdfsd",
+      "jobtype": "sdasda",
+      "id": 3
+    },
+    {
+      "companyname": "sd",
+      "salaryrange": "gfdggdf",
+      "jobname": "gfdg",
+      "jobdescription": "dfg",
+      "location": "gdfg",
+      "jobtype": "gdfgfd",
+      "id": 4
+    }
+  ],
+  "clientjobs": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "companyname": "fasd",
+      "jobname": "fdsf",
+      "salaryrange": "fdsf",
+      "jobdescription": "sdfsdfsdf",
+      "location": "fsdfsd",
+      "jobtype": "sdasda",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
